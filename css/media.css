@@ -1,0 +1,78 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	body{
+		font-size: 15px;
+	}
+	.article {
+	    padding: 30px 0 40px;
+	}
+	.c_tag {
+	    font-size: 12px;
+	}
+	.c_title, .card-title {
+	    margin: 8px 0 15px;
+	    font-size: 20px;
+	}
+	.news_box {
+	    width: 90%;
+	    text-align: left;
+	}
+	.signup_form {
+	    margin: 0;
+	    width: 50%;
+	}
+	.signup_form input {
+	    width: 240px;
+	}
+	.signup_form button {	    
+	    position: relative;
+	    top: 15px;
+	    right: -90px;
+	}
+	.blog {
+	    padding: 20px 0 60px;
+	}
+	.load {
+	    margin: 70px 0 50px;
+	}
+	.f-body{
+		padding: 0 0 28px;
+	}	
+	.f_left {
+	    width: 100%;
+	}
+	.f_left ul li a {
+	    margin-right: 20px;
+	}
+	.f_left ul li a:first-child {
+	    margin-left: 20px;
+	}
+	.f_right {
+		margin: 0 40px;
+	    width: 100%;
+	    float: none;
+	}
+	.f_right ul {
+	    float: none;
+	}
+	.f_right ul li:nth-child(2){
+	    margin-left: 30px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { ... }
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { ... }
