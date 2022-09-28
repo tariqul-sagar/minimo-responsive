@@ -60,8 +60,10 @@ body{
 }
 .c_text,.card-text{
 	margin: 0;
+	text-align: justify;
 }
 .c_paragraph{
+	text-align: justify;
 	margin-bottom: 40px;
 }
 /*Article Section end*/
