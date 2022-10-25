@@ -1,292 +1,269 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-	body{
-		font-size: 14px;
+	.c_title{
+		margin: 10px 0 15px;
+		font-size: 19px;
+		line-height: 30px;
 	}
-	.nav-item{
-		margin: 0 0 0 10px;
-		font-size: 13px;
+	/*Article section start*/
+	.article{
+		padding: 70px 0;
 	}
-	.article {
-	    padding: 20px 0 30px;
+	.a_paragraph{
+		margin-bottom: 30px !important;
+		text-align: justify;
 	}
-	.c_tag {
-	    font-size: 12px;
+	/*Article section end*/
+
+	/*Blog start*/
+	.blog{
+		padding: 0 0 80px;
 	}
-	.c_title, .card-title {
-	    margin: 5px 0 10px;
-	    font-size: 18px;
-	    line-height: 22px;
+	.blog_content{
+		margin-top: 40px;
 	}
-	.c_paragraph {
-	    margin-bottom: 20px;
+	.b_text{
+		text-align: justify;
 	}
-	.card {
-	    margin-top: 40px;
-	}
+	/*Blog end*/
+
+	/*Newsletter start*/
 	.news_box {
-	    width: 90%;
-	    text-align: left;
+	    width: 100%;
 	}
 	.signup{
-		text-align: center;
-	}
-	.signup_form {
-	    margin: 0 auto;
-	    width: 90%;
+		margin-bottom: 40px;
 	}
 	.signup_form input {
-		margin: 0 auto;
+	    width: 100%;
+	}
+	.signup_form {
 	    width: 240px;
-	    font-size: 12px;
-	    display: block;
 	}
-	.signup_form button {	    
-	    padding: 0;
-	    font-size: 12px;	    
-	    margin-bottom: 16px;
+	.signup_form button {
+	    top: 10px;
+	    right: -5px;
 	}
-	@media(min-width: 320px) and (max-width: 575.98px){
-		.signup_form button {
-			top: 10px;
-	    	right: -4px;
-		}
+	/*Newsletter end*/
+
+	/*Blog 2 start*/
+	.load{
+		margin: 70px 0 10px;
 	}
-	@media(min-width: 375px) and (max-width: 575.98px){
-		.signup_form button {
-			top: 8px;
-    		right: 23px;
-		}
+	.btn_load {
+	    width: 100px;
+	    height: 45px;
+	    font-size: 16px;
 	}
-	@media(min-width: 425px){
-		.signup_form button {
-			top: 15px;
-    		right: 40px;
-		}
+	/*Blog 2 end*/
+
+	/*Footer start*/
+	.footer_left,.footer_right{
+		float: none !important;
+		text-align: center;
 	}
-	.blog {
-	    padding: 20px 0;
-	}
-	.load {
-	    margin: 70px 0 40px;
-	}
-	.load button {
-	    width: 90px;
-	    height: 30px;
-	    font-size: 14px;
-	}
-	.f-body{
-		padding: 0 0 45px;
-	}	
-	.f_left {
-	    width: 100%;
-	    text-align: center;
-	}
-	.f_left ul {
-	    float: none;
-	    text-align: center;
-	    display: inline-flex;
-	}
-	.f_left ul li a {
-	    margin-right: 20px;
-	}
-	.f_left ul li a:first-child {
-	    margin-left: 0;
-	}
-	.f_right {
-	    width: 100%;
-	    text-align: center;
-	}
-	.f_right ul {
-	    float: none;
-	    text-align: center;
-	    display: inline-flex;
-	}
-	.f_right ul li:nth-child(2){
-	    margin-left: 30px;
-	}
+	/*Footer end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-	body{
-		font-size: 14px;
+	.c_title{
+		margin: 10px 0 20px;
+		font-size: 26px;
+		line-height: 35px;
 	}
-	.nav-item {
-	    margin: 0 0 0 10px;
-	    font-size: 14px;
+	/*Article section start*/
+	.article{
+		padding: 70px 0;
 	}
-	.article {
-	    padding: 25px 0 40px;
+	.a_paragraph{
+		margin-bottom: 30px !important;
+		text-align: justify;
 	}
-	.c_title, .card-title {
-	    margin: 5px 0 12px;
-	    font-size: 24px;
-	    line-height: 24px;
+	/*Article section end*/
+
+	/*Blog start*/
+	.blog{
+		padding: 0 0 80px;
 	}
-	.c_paragraph {
-	    margin-bottom: 25px;
+	.blog_content{
+		margin-top: 40px;
+		padding: 0 55px;
 	}
-	.card {
-	    margin-top: 30px;
+	.c_title{
+		margin: 10px 0 15px;
+		font-size: 22px;
+		line-height: 25px;
 	}
-	.blog {
-	    padding: 20px 0 50px;
-	}
-	.news_box {
-	    width: 80%;
-	}
-	.signup_form {
-	    width: 360px;
+	/*Blog end*/
+
+	/*Newsletter start*/
+	.signup{
+		margin-bottom: 40px;
 	}
 	.signup_form input {
-		margin: 0 auto;
-		width: 300px;   
+	    width: 100%;
 	}
-	.blog {
-	    padding: 20px 0 25px;
+	.signup_form {
+	    width: 262px;
 	}
-	.load {
-	    margin: 80px 0 30px;
+	.signup_form button {
+	    top: 10px;
+	    right: -5px;
 	}
-	.load button {
-	    width: 100px;
-	    height: 35px;
-	    font-size: 16px;
+	/*Newsletter end*/
+
+	/*Blog 2 start*/
+	.load{
+		margin: 70px 0 10px;
 	}
+	.btn_load {
+	    width: 110px;
+	    height: 45px;
+	    font-size: 17px;
+	}
+	/*Blog 2 end*/
+
+	/*Footer start*/
+	.footer_left,.footer_right{
+		float: none !important;
+		text-align: center;
+	}
+	/*Footer end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-	body{
-		font-size: 15px;
+	/*Header start*/
+	header{
+		padding: 20px 0;
 	}
-	.nav-item {
-	    margin: 0 0 0 10px;
-	    font-size: 14px;
+	.menu{}
+	.menu ul{}
+	.menu ul li{}
+	.menu ul li a{
+		margin: 5px 0;
+		float: right;
 	}
-	.article {
-	    padding: 30px 0 35px;
+	.menu ul li:last-child a{
+		margin-right: 0;
 	}
-	.c_title, .card-title {
-		margin: 6px 0 12px;
-	    font-size: 26px;
+	/*Header end*/
+
+	/*Article section start*/
+	.article{
+		padding: 80px 0 100px;
 	}
-	.c_paragraph {
-	    margin-bottom: 30px;
+	.a_paragraph{
+		margin-bottom: 35px !important;
+		text-align: justify;
 	}
-	.card {
-	    margin-top: 25px;
+	/*Article section end*/
+
+	/*Blog start*/
+	.blog{
+		padding: 20px 0 100px;
 	}
-	.blog {
-	    padding: 20px 0 50px;
+	.blog_content{
+		margin-top: 30px;
 	}
-	.news_box {
-	    width: 80%;
+	.c_title{
+		margin: 10px 0 15px;
+		font-size: 22px;
+		line-height: 25px;
+	}
+	/*Blog end*/
+
+	/*Newsletter start*/
+	.signup{
+		margin-bottom: 45px;
 	}
 	.signup_form {
-	    width: 360px;
+	    width: 262px;
 	}
 	.signup_form input {
-		margin: 0 auto;
-		width: 300px;   
+	    width: 100%;
 	}
-	.blog {
-	    padding: 20px 0 25px;
+	.signup_form button {
+	    top: 10px;
+	    right: -4px;
 	}
-	.load {
-	    margin: 80px 0 50px;
+	/*Newsletter end*/
+
+	/*Blog 2 start*/
+	.load{
+		margin: 80px 0 20px;
 	}
-	.load button {
+	.btn_load {
 	    width: 110px;
-	    height: 40px;
-	    font-size: 18px;
+	    height: 45px;
+	    font-size: 17px;
 	}
+	/*Blog 2 end*/
+
+	/*Footer start*/
+	.footer_right ul li a{
+		padding: 0 10px;
+	}
+	/*Footer end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	body{
-		font-size: 15px;
+	/*Newsletter start*/
+	.signup_form {
+	    width: 365px;
 	}
-	.nav-item {
-	    margin: 0 22px 0;
-	    font-size: 15px;
+	.signup_form input {
+	    width: 100%;
 	}
-	.article {
-	    padding: 45px 0 35px;
+	.signup_form button {
+	    top: 10px;
+	    right: -4px;
 	}
-	.c_tag {
-	    font-size: 13px;
+	/*Newsletter end*/
+
+	/*Blog 2 start*/
+	.load{
+		margin: 100px 0 30px;
 	}
-	.c_title, .card-title {
-	    margin: 7px 0 14px;
-	    font-size: 28px;
-	    line-height: 26px;
-	}
-	.card {
-	    margin-top: 35px;
-	}
-	.load {
-	    margin: 110px 0 0;
-	}
-	.load button {
-	    width: 135px;
-	    height: 42px;
+	.btn_load {
+	    width: 140px;
+	    height: 50px;
 	    font-size: 18px;
 	}
+	/*Blog 2 end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-	body{
-		font-size: 16px;
+	/*Blog start*/
+	.c_text{
+		padding-right: 24px;
 	}
-	.nav-item {
-	    margin: 0 42px 0;
-	    font-size: 16px;
+	/*Blog end*/
+
+	/*Newsletter start*/
+	.signup_form {
+	    width: 405px;
 	}
-	.article {
-	    padding: 50px 0 40px;
-	}
-	.c_title, .card-title {
-	    margin: 7px 0 15px;
-	    font-size: 28px;
-	    line-height: 38px;
-	}
-	.load button {
-	    width: 150px;
-	    height: 50px;
-	    font-size: 19px;
-	}
+	/*Newsletter end*/
+
+	
 }
 
 /*Extra extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1400px) {
-	body{
-		font-size: 16px;
-	}
-	.nav-item {
-	    margin: 0 60px 0;
-    	font-size: 17px;
-	}
-	.article {
-	    padding: 60px 0 40px;
-	}
-	.c_title, .card-title {
-	    margin: 12px 0 20px;
-	    font-size: 32px;
-	}
-	.card {
-	    margin-top: 60px;
+	/*Newsletter start*/
+	.signup_form {
+	    width: 475px;
 	}
 	.signup_form input {
-	    width: 377px;
-	    font-size: 16px;
+	    width: 75%;
 	}
-	.load button {
-	    width: 170px;
-	    height: 65px;
-	    font-size: 22px;
+	.signup_form button {
+	    top: 10px;
+	    right: 55px;
 	}
+	/*Newsletter end*/
 }

@@ -8,42 +8,10 @@ body{
 	color: #626262;
 	line-height: 24px;
 }
-/*Common end*/
-
-/*Navbar Start*/
-.navbar{
-	padding: 25px 0 35px;
+.common_wrapper{
+	margin: 0 auto;
+	width: 95%;
 }
-.nav-item{
-	margin: 0 40px;
-	text-transform: uppercase;
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
-	transition: .3s ease-in-out;
-}
-.nav-item:last-child{
-	margin-right: 0;
-}
-.nav-item:hover{
-	border-top: 1px solid #626262;
-	border-bottom: 1px solid #626262;
-}
-/*Navbar End*/
-
-/*Banner Section Start*/
-.banner{}
-.b_content{}
-.b_content img{
-	width: 100%;
-}
-/*Banner Section End*/
-
-/*Article Section start*/
-.article{
-	padding: 70px 0 40px;
-}
-.wrapper{}
-.a_content{}
 .c_tag{
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
@@ -52,52 +20,71 @@ body{
 	color: #b4ad9e;
 	text-transform: uppercase;
 }
-.c_title,.card-title{
-	margin: 10px 0 18px;
+.c_title{
+	margin: 15px 0 25px;
 	font-size: 30px;
-	font-weight: 400;
 	line-height: 40px;
 }
-.c_text,.card-text{
-	margin: 0;
-	text-align: justify;
-}
-.c_paragraph{
-	text-align: justify;
-	margin-bottom: 40px;
-}
-/*Article Section end*/
+/*Common end*/
 
-/*Blog Section start*/
-.blog{
-	padding: 20px 0 90px;
+/*Header start*/
+header{
+	padding: 20px 0;
 }
-.blog_content{
-	overflow: hidden;
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	margin: 0 30px;
+	padding: 2px 0;
+	color: #626262;
+	text-transform: uppercase;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	transition: .3s ease-in-out;
 }
-.card{
-	margin-top: 50px;
-	border: none;
-	border-radius: 0;
+.menu ul li:last-child a{
+	margin-right: 0;
 }
-.card img{
-	margin-bottom: 15px;
+.menu ul li a:hover{
+	border-top: 1px solid #626262;
+	border-bottom: 1px solid #626262;
 }
-.card-body{
-	padding: 0;
-}
-.single_blog:nth-child(even){
-	margin-left: 6%;
-}
-.blog_image{
-	margin-bottom: 15px;
-}
-.blog_image img{
+/*Header end*/
+
+/*Banner CSS start*/
+.banner{}
+.b_content{}
+.b_content img{
 	width: 100%;
 }
-/*Blog Section end*/
+/*Banner CSS end*/
 
-/*Newsletter Section start*/
+/*Article CSS start*/
+.article{
+	padding: 100px 0 120px;
+}
+.a_paragraph{
+	margin-bottom: 40px !important;
+}
+/*Article CSS end*/
+
+/*Blog CSS start*/
+.blog{
+	padding: 20px 0 120px;
+}
+.blog_content{
+	margin-top: 80px;
+}
+.blog_img{
+	margin-bottom: 15px;
+}
+.blog_img img{
+	width: 100%;
+}
+/*Blog CSS end*/
+
+/*Newsletter CSS start*/
 .news{
 	background-color: #f0f0f0;
 }
@@ -115,11 +102,11 @@ body{
 .signup_form{
 	position: relative;
 	margin: 0 auto;
-	width: 400px;
+	width: 65%;
 }
 .signup_form input{
 	padding-right: 55px;
-	width: 350px;
+	width: 88%;
 	height: 45px;
 	font-family: 'Playfair Display', serif;
     font-size: 14px;
@@ -133,8 +120,8 @@ body{
 }
 .signup_form button{
 	position: absolute;
-	top: 8px;
-	right: 20px;
+	top: 15px;
+	right: 18px;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
@@ -143,7 +130,7 @@ body{
 	outline: 0;
 }
 .signup_form button img{}
-/*Newsletter Section end*/
+/*Newsletter CSS end*/
 
 /*Blog Section 2 start*/
 .blog2{}
@@ -151,17 +138,13 @@ body{
 	margin: 150px 0 50px;
 	text-align: center;
 }
-.load button{
+.btn_load{
 	width: 160px;
     height: 60px;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    font-weight: 400;
-    color: #626262;
     background-color: transparent;
     border: 1px solid #626262;
-    border-radius: 0px;
-    cursor: pointer;
     transition: .33s ease-in-out;
 }
 .load button:hover{
@@ -172,22 +155,10 @@ body{
 
 /*Footer Section start*/
 footer{
-	padding: 15px 0 45px;
+	padding: 15px 0;
 	background-color: #f0f0f0;
 }
-.f_left{
-	width: 50%;
-	float: left;
-}
-.f_left ul{
-	padding: 0;
-	float: left;
-}
-.f_left ul li{
-	float: left;
-	list-style: none;
-}
-.f_left ul li a{
+.footer_left ul li a{
 	margin: 0 10px;
 	color: #000000;
 	text-decoration: none;
@@ -195,39 +166,34 @@ footer{
 	border-bottom: 1px solid transparent;
 	transition: .33s ease-in-out;
 }
-.f_left ul li a:first-child{
+.footer_left ul li a:first-child{
 	margin-left: 0;
 }
-.f_left ul li a:hover{
+.footer_left ul li a:hover{
 	border-top: 1px solid #626262;
 	border-bottom: 1px solid #626262;
 }
-.f_right{
-	width: 50%;
-	float: right;
-}
-.f_right span{
+.footer_right ul li a{
+	padding: 0 20px;
 	color: #000000;
 }
-.f_right ul{
-	padding: 0;
-	float: right;
-}
-.f_right ul li{
-	float: left;
-	list-style: none;
-}
-.f_right ul li a{
-	padding: 0 10px;	
-}
-.f_right ul li:last-child a{
+.footer_right ul li a:last-child{
 	padding-right: 0;
 }
-.f_right ul li a img{
-	padding: 5px;
-	border: 1px solid transparent;
+.develop{
+	text-align: center;
 }
-.f_right ul li a img:hover{
-	border: 1px solid #626262;
+.develop a{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #626262;
+	text-decoration: none;
+	transition: .33s ease-in-out;
+}
+.develop a:hover{
+	color: #000000;
 }
 /*Footer Section end*/
